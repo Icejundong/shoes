@@ -1,0 +1,133 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+[v-cloak] {
+	display: none;
+}
+
+
+.flex,
+.flex-only {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flex-aic {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+
+	align-items: center;
+	-webkit-align-items: center;
+	box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+}
+
+.flex-jac {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+
+	align-items: center;
+	-webkit-align-items: center;
+	box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+	/*  */
+	-webkit-justify-content: center;
+	justify-content: center;
+	-moz-box-pack: center;
+	-webkit--moz-box-pack: center;
+	box-pack: center;
+}
+
+.flex-jasc {
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+
+	align-items: center;
+	-webkit-align-items: center;
+	box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+	/*  */
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-moz-box-pack: space-between;
+	-webkit--moz-box-pack: space-between;
+	box-pack: space-between;
+}
+
+.flex-jcac {
+
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	align-items: center;
+	-webkit-align-items: center;
+	box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+	/*  */
+	-webkit-justify-content: center;
+	justify-content: center;
+	-moz-box-pack: center;
+	-webkit--moz-box-pack: center;
+	box-pack: center;
+}
+
+.flex-jcs {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-moz-box-pack: space-between;
+	-webkit--moz-box-pack: space-between;
+	box-pack: center;
+
+	align-items: center;
+	-webkit-align-items: center;
+	box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+}
+
+.flex-grow {
+
+	flex-grow: 1;
+
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.wapper{
+    touch-action: none !!important;
+}
